@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/back"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            app:srcCompat="@drawable/ic_baseline_logout_24" />
+        <TextView
+            android:id="@+id/name"
+            android:paddingTop="25dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:textColor="#D50000"
+            android:text="Welcome "
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/abeezee"
+
+             />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        android:gravity="center"
+
+        >
+
+
+        <Button
+            android:id="@+id/buttonScanQR"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:cornerRadius="100dp"
+            android:padding="10dp"
+            app:fontFamily="@font/abeezee"
+            android:textSize="24sp"
+            android:text="Scan QR "
+            android:textAllCaps="false"
+            android:elevation="8dp"
+            />
+        <Button
+            android:id="@+id/buttonLoadQR"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:cornerRadius="100dp"
+            android:padding="10dp"
+            app:fontFamily="@font/abeezee"
+            android:textSize="24sp"
+            android:text="Records"
+            android:textAllCaps="false"
+            android:elevation="8dp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
